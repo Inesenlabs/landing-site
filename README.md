@@ -8,7 +8,6 @@
 landing-site/
   public/
     index.html
-  .github/workflows/ci.yml
   .env.example
   package.json
   server.mjs
@@ -20,7 +19,6 @@ landing-site/
 - `server.mjs` раздаёт статику на `PORT`, подходит для Railway.
 - `GET /health` нужен для healthcheck.
 - `GET /config.js` отдаёт публичную конфигурацию для будущей интеграции с `landing-api`.
-- GitHub Action проверяет базовую целостность проекта на push и PR.
 
 ## Локальный запуск
 
