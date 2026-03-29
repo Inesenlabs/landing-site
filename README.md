@@ -19,6 +19,7 @@ landing-site/
 - `server.mjs` раздаёт статику на `PORT`, подходит для Railway.
 - `GET /health` нужен для healthcheck.
 - `GET /config.js` отдаёт публичную конфигурацию для будущей интеграции с `landing-api`.
+- `.github/workflows/ci.yml` прогоняет базовый CI на push и pull request.
 
 ## Локальный запуск
 
